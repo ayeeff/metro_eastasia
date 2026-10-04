@@ -1,0 +1,219 @@
+{
+  "_comment": "Precomputed job matrix for metro-transit.yml, metro_eastasia. One job per (extract, cluster), capped at 10 cities so a single failing city cannot fail its whole group. Clustering bounds the coarse cut; the cap bounds the blast radius. Generated rather than computed in jq, which failed in CI under set -euo pipefail with no message.",
+  "perJob": 10,
+  "cityCount": 49,
+  "groupCount": 27,
+  "groups": [
+    {
+      "extract": "china",
+      "cluster": "china",
+      "cities": [
+        "guian:106.416,26.153,106.916,26.513",
+        "kashgar:75.74,39.29,76.24,39.65",
+        "xianning:114.08,29.66,114.58,30.02",
+        "zhaoqing:112.22,22.87,112.72,23.23"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-1",
+      "cities": [
+        "urumqi:87.4668,43.6756,87.7668,43.9756"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-178",
+      "cities": [
+        "dongguan:113.5,22.84,114,23.2",
+        "foshan:112.8219,22.7218,113.4219,23.3218",
+        "guangzhou:112.9644,22.8291,113.5644,23.4291",
+        "shenzhen:113.7579,22.2431,114.3579,22.8431"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-179",
+      "cities": [
+        "huizhou:114.17,22.93,114.67,23.29"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-181",
+      "cities": [
+        "fuzhou:119.05,25.89,119.55,26.25",
+        "ningde:119.3,26.48,119.8,26.84"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-182",
+      "cities": [
+        "chongqing:106.2516,29.263,106.8516,29.863"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-183",
+      "cities": [
+        "changsha:112.69,28.05,113.19,28.41"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-184",
+      "cities": [
+        "ningbo:121.3,29.69,121.8,30.05"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-185",
+      "cities": [
+        "chengdu:103.77002,30.37,104.37002,30.97"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-186",
+      "cities": [
+        "hangzhou:119.8551,29.9741,120.4551,30.5741",
+        "hefei:116.98,31.64,117.48,32",
+        "jiangyin:120.05,31.73,120.55,32.09",
+        "wuhan:114.0055,30.2928,114.6055,30.8928"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-187",
+      "cities": [
+        "nanjing:118.4969,31.7603,119.0969,32.3603",
+        "shanghai:121.1365,30.91645,121.7365,31.51645",
+        "suzhou:120.2853,30.9989,120.8853,31.5989",
+        "wuxi:120.06,31.31,120.56,31.67"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-188",
+      "cities": [
+        "xian:108.7,34.09,109.2,34.45",
+        "zhengzhou:113.37,34.57,113.87,34.93"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-189",
+      "cities": [
+        "qingdao:120.0826,35.7671,120.6826,36.3671"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-190",
+      "cities": [
+        "beijing:116.08829,39.62889,116.68829,40.22889",
+        "tianjin:116.95,38.95,117.45,39.31"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-191",
+      "cities": [
+        "dalian:121.3147,38.614,121.9147,39.214"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-192",
+      "cities": [
+        "hohhot:111.5,40.66,112,41.02"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-193",
+      "cities": [
+        "shenyang:123.1315,41.5057,123.7315,42.1057"
+      ]
+    },
+    {
+      "extract": "china",
+      "cluster": "china-195",
+      "cities": [
+        "harbin:126.28,45.62,126.78,45.98"
+      ]
+    },
+    {
+      "extract": "japan",
+      "cluster": "japan-229",
+      "cities": [
+        "okinawa:127.43,26.03,127.93,26.39"
+      ]
+    },
+    {
+      "extract": "japan",
+      "cluster": "japan-230",
+      "cities": [
+        "fukuoka:130.15,33.41,130.65,33.77",
+        "kyoto:135.45,34.72999,136.05,35.32999",
+        "osaka:135.2023,34.3937,135.8023,34.9937"
+      ]
+    },
+    {
+      "extract": "japan",
+      "cluster": "japan-231",
+      "cities": [
+        "nagoya:136.6066,34.8815,137.2066,35.4815",
+        "tokyo:139.45141,35.38502,140.05141,35.98502"
+      ]
+    },
+    {
+      "extract": "japan",
+      "cluster": "japan-232",
+      "cities": [
+        "sapporo:141.1,42.88,141.6,43.24"
+      ]
+    },
+    {
+      "extract": "mongolia",
+      "cluster": "mongolia",
+      "cities": [
+        "ulaanbaatar:106.61662,47.61667,107.21662,48.21667"
+      ]
+    },
+    {
+      "extract": "north-korea",
+      "cluster": "north-korea",
+      "cities": [
+        "pyongyang:125.45469,38.71944,126.05469,39.31944"
+      ]
+    },
+    {
+      "extract": "south-korea",
+      "cluster": "south-korea",
+      "cities": [
+        "anyang:126.717,37.211,127.217,37.571"
+      ]
+    },
+    {
+      "extract": "south-korea",
+      "cluster": "south-korea-265",
+      "cities": [
+        "seoul:126.69974,37.26635,127.29973,37.86635"
+      ]
+    },
+    {
+      "extract": "taiwan",
+      "cluster": "taiwan-245",
+      "cities": [
+        "kaohsiung:120.22469,22.44683,120.52438,22.91413",
+        "newtaipeicity:121.3059,24.90613,121.70707,25.21936",
+        "taichung:120.53343,24.0212,120.75175,24.38878",
+        "taipei:121.26833,24.73583,121.86833,25.33583",
+        "taoyuan:121.10734,24.83655,121.40953,25.10575"
+      ]
+    }
+  ]
+}
